@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3> Viết chương trình nhập điểm của một sinh viên cho các môn: Vật lý, Hóa học,
+    và Sinh học. Sau đó hiển thị điểm trung bình và tổng của những điểm này</h3>>
+<h2>bai 1</h2>
+
+</body>
+<script>
+    var physics = prompt('Nhập điểm Lý');
+    var chemistry = prompt('Nhập điểm Hóa');
+    var biological =prompt('nhập điểm sinh');
+    var physics = parseInt(physics);
+    var chemistry = parseInt(chemistry);
+    var biological = parseInt(biological);
+    var point = (physics +chemistry+biological)/3
+    document.write("Điểm trung bình là: " + point+'điểm'+"----");
+    var center_scocer =(physics +chemistry+biological)
+    document.write("Điểm 3 môn là: "+center_scocer  +'điểm');
+</script>
+<h2>bai 2</h2>
+<h3>: Viết chương trình nhập một giá trị là độ 0C (Celsius) và chuyển nó sang độ 0F
+    (Fahrenheit). [Hướng dẫn: C/5 = (F-32)/9]</h3>
+<script>
+    var C=prompt('Nhập nhiệt độ C mau');
+    var C = parseInt(C);
+    var F=9*C/5+32
+    document.write("Nhiệt độ F là: " + F);
+</script>
+</html>
+<h2>Bai 3</h2>
+<h3>: Viết chương trình tính diện tích hình tròn</h3>
+<script>
+    var radius=prompt('Nhập bán kình hình tròn tính băng cm please');
+    var radius=parseInt(radius);
+    const PI = 3.14159;
+    var area = radius * radius * PI;
+    document.write("Diện tích hình tròn là "+area +"cm");
+</script>
